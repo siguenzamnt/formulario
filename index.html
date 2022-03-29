@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MNT C.R</title>
+</head>
+<body>
+    <img src="logo.png" class="logo">
+    <h1> Multi Negocios Tecnológicos C.R</h1>
+    <h2>Agregar Usuario</h2>
+    <div>
+        <!--Formulario para crear nuevo usuario-->
+    <form>
+        <label for="Nombre">NOMBRE</label>
+        <input type="text" name="nombre" id="" placeholder="Nombre" />
+        <br>
+        <br>
+        <label for="Apellido">APELLIDO</label>
+        <input type="text" name="apellido" id="" placeholder="Apellido" />
+        <br>
+        <br>
+        <label for="Genero">GENERO</label>
+        <br>
+        <br>   
+        <label for="Hombre">HOMBRE</label>     
+        <input type="checkbox" name="Hombre" id="">
+        <br>
+        <br>   
+        <label for="Mujer">MUJER</label>     
+        <input type="checkbox" name="MUJER" id="">
+        <br>
+        <br>   
+        <label for="Desconocido">DESCONOCIDO</label>     
+        <input type="checkbox" name="Desconocido" id="">
+        <br>
+        <br>
+        <label class="na" for="nivel_acceso"><b>NIVEL DE ACCESO</b></label>
+        <select class="select-usuario">
+            <option value="Nivel de Acceso #1">Nivel de Acceso #1</option>
+            <option value="Nivel de Acceso #2">Nivel de Acceso #2</option>
+            <option value="Nivel de Acceso #3">Nivel de Acceso #3</option>
+            <option value="Nivel de Acceso #4">Nivel de Acceso #4</option>
+        </select>
+           
+        <br>
+        <br>
+        <label for="Comentarios">COMENTARIOS</label>    
+        <input type="text" class="caja-texto">
+    </div>
+    <!--Nivel de Acceso-->
+    <div id="nivel-acceso">
+        <select >
+            <option value="Nivel de Acceso #1">Nivel de Acceso #1</option>
+            <option value="Nivel de Acceso #2">Nivel de Acceso #2</option>
+            <option value="Nivel de Acceso #3">Nivel de Acceso #3</option>
+            <option value="Nivel de Acceso #4">Nivel de Acceso #4</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="Puerta#1"><b>Puerta #1</b></label>     
+        <input type="checkbox" name="Desconocido" id="">
+        <label for="Puerta#2"><b>Puerta #2</b></label>     
+        <input type="checkbox" name="Desconocido" id="">
+        <label for="Puerta#3"><b>Puerta #3</b></label>     
+        <input type="checkbox" name="Desconocido" id="">
+        <label for="Puerta#4"><b>Puerta #4</b></label>     
+        <input type="checkbox" name="Desconocido" id="">
+        <button type="button" id="registrar_na" class="registro-na" onclick="Actualizar();">Registrar Nivel de Acceso</button>
+        <input type="reset" value="Borrar información">
+    </div>
+    </form>
+</body>
+</html>

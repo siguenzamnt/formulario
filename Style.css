@@ -1,0 +1,83 @@
+
+h1 {
+    color: #fffffffa;
+    font-size: 3em;
+    margin-block-start: -1.33em;
+    background: black;
+    border-radius: 206px;
+    text-align: center;
+}
+h2 {
+    /* margin: 50px; */
+    color: blue;
+    font-style: italic;
+    background: #efeded;
+    text-align: center;
+}
+label {
+    margin: 50px;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 1500px;
+}
+body {
+    
+    background-image: url("fondo.jpg"); 
+    background-size: cover;
+    background-repeat:no-repeat;
+    /*background-position: center center;*/
+
+}
+
+div{
+    background: rgb(66 61 61);
+    border-radius: 40px;
+    padding: 20px;
+    width: 385px;
+}
+
+.caja-texto{
+    width: 332px;
+    height: 100px;
+    margin: 26px;
+}
+#nivel-acceso{
+    padding-right: 2px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -453px;
+    width: 400px;
+    height: 251px;
+    background-color: rgb(66 61 61);
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+}
+select{
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: 96px;
+    margin-top: 25px;
+}
+
+.select-usuario{
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: 162px;
+    margin-top: 0px;
+}
+
+.registro-na{    
+    margin-left: 37px;
+    margin-top: 41px;
+
+}
+.na{
+color:rgb(219, 130, 130);
+margin-left: 172px;
+
+}
