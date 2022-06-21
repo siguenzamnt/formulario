@@ -7,6 +7,7 @@ h1 {
     border-radius: 206px;
     text-align: center;
 }
+/*test*/
 h2 {
     /* margin: 50px; */
     color: blue;
@@ -80,4 +81,59 @@ select{
 color:rgb(219, 130, 130);
 margin-left: 172px;
 
+}
+
+.checkbox{
+margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    width: calc(100%);
+    margin-block-start: 2px;
+    font-size: 20px;
+    border-radius: 16px;
+ }
+
+    .logo {
+        width: 75px;
+        /* margin-right: -57px; */
+        margin-left: 39%;
+        margin-top: auto;
+ }
+    h2 {
+        display: none;
+    }
+    .caja-texto {
+        width: 296px;
+        height: 100px;
+        margin: 26px;
+     }
+     #nivel-acceso { 
+     padding-right: 6px;
+    padding-left: 28px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 17px;
+    width: 290px;
+    height: 264px;
+    background-color: rgb(66 61 61);
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    }
+    div {
+        background: rgb(66 61 61);
+        border-radius: 56px;
+        padding: 16px;
+        width: 332px;
+    }
+    .na {
+        color: rgb(219, 130, 130);
+        margin-left: 72px;
+    }
+    body {
+        background-size: auto;
+    
+    }
 }
